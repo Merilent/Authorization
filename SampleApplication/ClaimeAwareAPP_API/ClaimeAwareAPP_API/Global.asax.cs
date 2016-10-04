@@ -33,7 +33,7 @@ namespace ClaimeAwareAPP_API
 
             ClaimsPrincipal currentPrincipal = ClaimsPrincipal.Current;
             Thread.CurrentPrincipal = RoleProvider.ApplicationRoles(currentPrincipal, ConfigurationManager.AppSettings["ida:APIName"], ConfigurationManager.ConnectionStrings["AuthorizationConnection"].ConnectionString);
-            HttpContext.Current.User = Thread.CurrentPrincipal 
+            HttpContext.Current.User = Thread.CurrentPrincipal;
         }
     }
 }
