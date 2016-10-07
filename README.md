@@ -4,10 +4,10 @@ Authorization framework provides the flexibility to authorize user/groups. It ge
 
 ### This project have ###
 
-  * **Merilent.Authorization** : It is a Authorization framework library.
-  * **AuthorizationApp**       : It is a utility app for admin to check user having which roles to access applicaition.
-  * **AuthorizationDB**        : It is a Database project having tables and view for Roles access to user or group.
-  * **Sample Application**     : It has sample applicaiton using Authorization framework.
+  * **Merilent.Authorization** : Authorization framework library.
+  * **AuthorizationApp**       : Utility app for admin to check user having which roles to access application.
+  * **AuthorizationDB**        : Database project having tables and view for Roles access to user or group.
+  * **Sample Application**     : Sample applicaiton using Authorization framework.
 
 
 ## Getting started ##
