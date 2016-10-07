@@ -1,19 +1,19 @@
 # Authorization #
 
-Authorization framework provides the flexibility to authorize user/groups. It generates tokens for the authenticated users and adds application roles assigned to the user into the database. Using this we can display user-specific UI, provide access control over the application, etc.
+Authorization framework provides the flexibility to authorize user/group. It generates tokens for the authenticated users and adds application roles assigned to the user into the database. Using this we can display user-specific UI, provide access control over the application, etc.
 
 ### This project consists of: ###
 
   * **Merilent.Authorization** : Authorization framework library.
-  * **AuthorizationApp**       : Utility app for an admin to check users having which roles to access application.
-  * **AuthorizationDB**        : Database project having tables and views consisting of Roles accessible to a user or group.
+  * **AuthorizationApp**       : Utility app for the admin to check the Roles assigned to a user to access application.
+  * **AuthorizationDB**        : Database project having tables and views consisting of Roles accessible to a user/group.
   * **Sample Application**     : Sample application using Authorization framework.
 
 
 ## Getting started ##
 ### Import Database ###
  
-Import project database and create a database on your Database Server to configure the user Roles.
+Import database project and create a database on your Database Server to configure the user Roles.
 
 **Note**: Create all the objects that are available in the project database on your Server Database too.
 
