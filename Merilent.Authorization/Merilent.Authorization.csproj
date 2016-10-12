@@ -95,7 +95,6 @@
     <Compile Include="Handler\ApplicaitonClaimsHandler.cs" />
     <Compile Include="Handler\ClientMessageInspector.cs" />
     <Compile Include="Handler\RoleProvider.cs" />
-    <Compile Include="Handler\TokenHandler.cs" />
     <Compile Include="Handler\TokenInspectorHandler.cs" />
     <Compile Include="Handler\UserRoles.cs" />
     <Compile Include="Handler\SecretHandler.cs" />

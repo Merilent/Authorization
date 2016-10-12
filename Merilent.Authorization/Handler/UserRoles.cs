@@ -52,7 +52,7 @@ namespace Merilent.Authorization
                         using (UserPrincipal userPrincipal = UserPrincipal.FindByIdentity(context, userName))
                         {
                             LogHelper.Log($"Getting roles for user: {userName} for application: {applicationame}", LogLevel.INFORMATION);
-                            // find the user userName  e.g. ppanigrahi or ppanigrahi@merilent.com, Recommended ppanigrahi@merilent.com
+                            
 
                             if (userPrincipal != null)
                             {

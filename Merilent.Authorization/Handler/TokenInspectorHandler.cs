@@ -67,14 +67,7 @@ namespace Merilent.Authorization
                     var message = "Token Validation fails no Authorization Header for authorized request Your call is Anonymous";
                     LogHelper.Log(message);
                     return false;
-                    //string error = "Authorization header is empty";
-                    //correlationState = error;
-                    //LogHelper.Log("Access is denied for user", LogLevel.ERROR);
-                    //LogHelper.Log(new System.ServiceModel.Security.SecurityAccessDeniedException("Access denied").ToString(), LogLevel.ERROR);
-
-                    //var claims = ((ClaimsIdentity)HttpContext.Current.User.Identity).Claims.Select(g => new Claim(g.Type, g.Value)).ToList();
-                    //string claim = string.Join<Claim>(",", claims.ToArray());
-                    //throw new SecurityAccessDeniedException($"Access denied for user : { HttpContext.Current.User.Identity.Name} and claims {claim}");
+                   
                 }
                 return correlationState;
             }
@@ -134,18 +127,7 @@ namespace Merilent.Authorization
             {
                 throw new Exception("Unable to assign User to current context. Please enable <serviceHostingEnvironment aspNetCompatibilityEnabled='true' /> in WCF web.config.");
             }
-            //if (OperationContext.Current != null)
-            //{
-            //    //OperationContext.Current.u
-            //    Thread.CurrentPrincipal = claimsPrincipal;
-
-            //    return true;
-            //}
-            //else if (HttpContext.Current != null)
-            //{
-            //    HttpContext.Current.User = claimsPrincipal;
-            //    return true;
-            //}
+         
         }
     }
 
